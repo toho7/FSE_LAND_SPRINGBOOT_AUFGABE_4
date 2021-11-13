@@ -31,7 +31,7 @@ class TeacherRepositoryTest {
         Teacher teacher = Teacher.builder()
                 .firstName("Claudio")
                 .lastName("Landerer")
-                .courses(List.of(courseGit, courseSpringBoot))
+                //.courses(List.of(courseGit, courseSpringBoot))
                 .build();
 
         teacherRepository.save(teacher);
