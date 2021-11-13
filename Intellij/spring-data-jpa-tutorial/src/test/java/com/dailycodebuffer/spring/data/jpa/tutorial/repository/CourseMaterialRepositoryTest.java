@@ -20,13 +20,13 @@ class CourseMaterialRepositoryTest {
     public void saveCourseMaterial(){
         Course course =
                 Course.builder()
-                .title("php")
+                .title("spring")
                 .credit(12)
                 .build();
 
         CourseMaterial courseMaterial =
                 CourseMaterial.builder()
-                .url("www.w3schools.at")
+                .url("www.moodle.at")
                 .course(course)
                 .build();
 
